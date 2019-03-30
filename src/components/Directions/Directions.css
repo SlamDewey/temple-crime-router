@@ -1,0 +1,32 @@
+.directionsContainer {
+	width: 400px;
+	height: 80px;
+	background-color: #e8e8e8;
+	position: absolute;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 60px;
+	z-index: 1000;
+	border-radius: 20px;
+	flex-direction: row;
+}
+.inputContainer {
+	flex: 4;
+	display: flex;
+	flex-direction: column;
+	z-index: 1001;
+	height: 100%;
+	width: 100%;
+
+}
+
+.directionsButton {
+	background-color: #53B4A5;
+	flex: 1;
+	z-index: 1001;
+	height: 100%;
+	width: 100%;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}

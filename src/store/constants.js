@@ -4,6 +4,8 @@ const Constant = {
 	UPDATE_ROUTE: "UPDATE_ROUTE",
 	ADD_ERROR: "ADD_ERROR",
 	CLEAR_ERROR: "CLEAR_ERROR",
+	UPDATE_START: "UPDATE_START",
+	UPDATE_END: "UPDATE_END",
 }
 
 export default Constant

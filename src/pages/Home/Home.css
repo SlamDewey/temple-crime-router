@@ -1,0 +1,7 @@
+.leaflet-container {
+    height: 1000px;
+    width: 1200px;
+}
+.mapWrapper {
+	z-index: 1;
+}

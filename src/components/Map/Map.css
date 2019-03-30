@@ -1,0 +1,11 @@
+.testMap {
+	height:100%;
+    margin:0;
+    padding:0;
+	background-color: #334455;
+}
+
+.leaflet-container {
+    height: 400px;
+    width: 800px;
+}

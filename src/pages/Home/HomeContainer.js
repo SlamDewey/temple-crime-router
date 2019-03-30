@@ -1,6 +1,7 @@
 import {connect} from 'react-redux'
 import Home from './Home'
 import { addError, clearError, fetchRoute } from '../../store/actions'
+import './Home.css'
 
 const mapStateToProps = (state) => {
 	return {
@@ -8,6 +9,7 @@ const mapStateToProps = (state) => {
 		fetching: state.fetching,
 		safetyRating: state.safetyRating,
 		route: state.route,
+		markers: state.markers,
 	}
 }
 
