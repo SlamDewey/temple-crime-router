@@ -13,13 +13,14 @@ class Home extends Component {
     }
 
     map_markers(nodes) {
-        return nodes.map( (node, id) => (
+        /*return nodes.map( (node, id) => (
             <Marker key={id} position={node}>
                 <Popup>
                     <span>A pretty CSS3 popup. <br/> Easily customizable.</span>
                 </Popup>
             </Marker>
-        ));
+        ));*/
+        return null
     }
 
 
@@ -29,19 +30,20 @@ class Home extends Component {
                 <Directions />
                 <div className="mapWrapper">
                     <Map
-                        center={[data.nodes[0].lat, data.nodes[0].lon]}
-                        zoom={15}
-                        maxZoom={19}
-                        attributionControl={true}
-                        zoomControl={true}
-                        doubleClickZoom={true}
-                        scrollWheelZoom={true}
-                        dragging={true}
-                        animate={true}
-                        easeLinearity={0.35}
+                        center             = {[39.981521, -75.153300]}
+                        zoom               = {15}
+                        maxZoom            = {19}
+                        attributionControl = {true}
+                        zoomControl        = {true}
+                        doubleClickZoom    = {true}
+                        scrollWheelZoom    = {true}
+                        dragging           = {true}
+                        animate            = {true}
+                        easeLinearity      = {0.35}
                       >
-                        <TileLayer
-                          url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
+                        
+                       <TileLayer
+                          url = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
                         />
                          {this.map_markers(data.nodes)}
                       </Map>

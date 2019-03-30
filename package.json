@@ -7,6 +7,7 @@
     "cross-fetch": "^3.0.2",
     "geojson": "^0.5.0",
     "leaflet": "^1.4.0",
+    "leaflet-control-geocoder": "^1.7.0",
     "leaflet-routing-machine": "^3.2.12",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

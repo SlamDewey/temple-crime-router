@@ -9,8 +9,8 @@ class Directions extends Component {
     render() {
         return(
 
-            <div class="directionsContainer">
-                <div class="inputContainer">
+            <div className="directionsContainer">
+                <div className="inputContainer">
                     <AddressInput
                         first={true}
                     />
