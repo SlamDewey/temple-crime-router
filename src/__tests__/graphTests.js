@@ -51,19 +51,15 @@ function generate_new_node(road1, road2, nir1, nir2) {
     
     //get new location by averaging old locations
     var totLat = 0, totLon = 0;
-    for (var i = 0; i < 2; i++) {
-        totLat += road1.nodes[nir1].lat + road1.nodes[nir1 + 1].lat;
-        totLon += road1.nodes[nir1].lon + road1.nodes[nir1 + 1].lon;
-    }
-    for (var i = 0; i < 2; i++) {
-        totLat += road2.nodes[nir2].lat + road2.nodes[nir2 + 1].lat;
-        totLon += road2.nodes[nir2].lon + road2.nodes[nir2 + 1].lon;
-    }
+    totLat += Math.abs(road1.nodes[nir1].lat) + Math.abs(road1.nodes[nir1 + 1].lat);
+    totLon += Math.abs(road1.nodes[nir1].lon) + Math.abs(road1.nodes[nir1 + 1].lon);
+    totLat += Math.abs(road2.nodes[nir2].lat) + Math.abs(road2.nodes[nir2 + 1].lat);
+    totLon += Math.abs(road2.nodes[nir2].lon) + Math.abs(road2.nodes[nir2 + 1].lon);
     //create new intersection node
     totLat /= 4;
-    totLon /= 4;
+    totLon /= -4;
     var shared_node = new node(id(totLat, totLon), totLat, totLon);
-
+    nodes_list[id(totLat, totLon)] = shared_node;
     //rebuild connections
     //add connection n1 -> shared
     road1.nodes[nir1].add_adjacent_node(shared_node, 0);
@@ -138,12 +134,13 @@ describe('parse geojson', () => {
             }
         }
         var str = "";
-        str += "{\"nodes\": [\"";
+        str += "{\"nodes\": [";
         for (var x in nodes_list) {
-            str += "{\"lon\":" + nodes_list[x].lat + ", \"lat\":" + nodes_list[x].lon + "},";
+            str += "{\"lon\":" + nodes_list[x].lon + ", \"lat\":" + nodes_list[x].lat + "},";
         }
         str += "]}";
         console.log(str);
+        console.log("\n\n\n\n\n\n");
 		expect(roads).not.toEqual('undefined');
 	})
 });
