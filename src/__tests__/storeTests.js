@@ -71,7 +71,7 @@ describe('reducers.js', () => {
 		  it('should return true when fetching', () => {
 		     expect(
 	      		fetching(false, {
-	        		type: Constant.FETCH_ACHIEVEMENTS,
+	        		type: Constant.FETCH_ROUTE,
 	      		})
 	    	).toEqual(true)
 		  })
@@ -80,7 +80,7 @@ describe('reducers.js', () => {
 		  it('should return false when fetching is canceled', () => {
 		     expect(
 	      		fetching(true, {
-	        		type: Constant.CANCEL_FETCHING,
+	        		type: Constant.CANCEL_FETCH,
 	      		})
 	    	).toEqual(false)
 		  })
