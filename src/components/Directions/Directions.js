@@ -9,9 +9,14 @@ class Directions extends Component {
     render() {
         return(
 
-            <div class="directionsContainer">
-                <div class="inputContainer">
-                    <AddressInput/>
+            <div className="directionsContainer">
+                <div className="inputContainer">
+                    <AddressInput
+                        first={true}
+                    />
+                    <AddressInput
+                        first={false}
+                    />
             	</div>
             	<button className="directionsButton"
             			onClick={this._getRoute}>

@@ -12,15 +12,15 @@ class Home extends Component {
         this.props.addError("test");
     }
 
-    renderMarker(node) {
-        console.log(node)
-        return (
-            <Marker position={node}>
+    map_markers(nodes) {
+        /*return nodes.map( (node, id) => (
+            <Marker key={id} position={node}>
                 <Popup>
                     <span>A pretty CSS3 popup. <br/> Easily customizable.</span>
                 </Popup>
             </Marker>
-        )
+        ));*/
+        return null
     }
 
 
@@ -42,12 +42,11 @@ class Home extends Component {
                         easeLinearity      = {0.35}
                       >
                         
-                        <TileLayer
+                       <TileLayer
                           url = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
                         />
-                         {this.renderMarker(data.nodes[0])}
+                         {this.map_markers(data.nodes)}
                       </Map>
-                      <Routing/>
                     </div>
             </div>
         );

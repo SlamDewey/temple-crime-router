@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './AddressInput.css'
 
 import PlacesAutocomplete, {
   geocodeByAddress,
@@ -12,28 +13,36 @@ class AddressInput extends React.Component {
     }
   
     handleChange = address => {
-      this.setState({ address });
+      this.props.first ? this.props.updateStart(address) : this.props.updateEnd(address)
     };
   
     handleSelect = address => {
+      this.props.first ? this.props.updateStart(address) : this.props.updateEnd(address)
       geocodeByAddress(address)
         .then(results => getLatLng(results[0]))
         .then(latLng => console.log('Success', latLng))
         .catch(error => console.error('Error', error));
+
     };
+
+    placeholder = () => {
+      return this.props.firs == true ? '   start address': '   end address'
+    }
   
     render() {
+      const first = this.props.first ? true: false
+      const text = this.props.first ? "  start": "  end"
       return (
         <PlacesAutocomplete
-          value    = {this.state.address}
+          value    = {first? this.props.start: this.props.end}
           onChange = {this.handleChange}
           onSelect = {this.handleSelect}
         >
           {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
-            <div>
-              <input
+            <div className="input">
+              <input className="input"
                 {...getInputProps({
-                  placeholder: 'Search Places ...',
+                  placeholder: 'enter address',
                   className  : 'location-search-input',
                 })}
               />

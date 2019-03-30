@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import L from 'leaflet';
 import { Popup } from 'react-leaflet';
-import 'leaflet-routing-machine';
+//import 'leaflet-routing-machine';
 import 'leaflet-control-geocoder';
 import 'leaflet-routing-machine/dist/leaflet-routing-machine.css';
 
