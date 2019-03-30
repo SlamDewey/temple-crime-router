@@ -11,7 +11,10 @@ const consoleMessages = store => next => action => {
 
 	let { route, safetyRating, fetching, errors } = store.getState()
 	console.log(`
-
+		route: ${route}
+		safetyRating: ${safetyRating}
+		fetching: ${fetching}
+		errors: ${errors}
 	`)
 
 	console.groupEnd()
