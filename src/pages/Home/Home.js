@@ -30,26 +30,24 @@ class Home extends Component {
                 <Directions />
                 <div className="mapWrapper">
                     <Map
-                        center={[11.1,11.1]}
-                        zoom={15}
-                        maxZoom={19}
-                        attributionControl={true}
-                        zoomControl={true}
-                        doubleClickZoom={true}
-                        scrollWheelZoom={true}
-                        dragging={true}
-                        animate={true}
-                        easeLinearity={0.35}
+                        center             = {[39.981521, -75.153300]}
+                        zoom               = {15}
+                        maxZoom            = {19}
+                        attributionControl = {true}
+                        zoomControl        = {true}
+                        doubleClickZoom    = {true}
+                        scrollWheelZoom    = {true}
+                        dragging           = {true}
+                        animate            = {true}
+                        easeLinearity      = {0.35}
                       >
-                        <Routing
-                            strt={[11.1,11.1]}
-                            to={[11.2,11.2]}
-                        />
+                        
                         <TileLayer
-                          url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
+                          url = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
                         />
                          {this.renderMarker(data.nodes[0])}
                       </Map>
+                      <Routing/>
                     </div>
             </div>
         );
