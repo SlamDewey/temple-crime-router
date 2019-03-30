@@ -26,7 +26,7 @@ var roads_list = [];
 var nodes_list = [];
 
 describe('parse geojson', () => {
-	it('is not undefined', async () => {
+	it('is not undefined', () => {
         for (var i = 0; i < roads.features.length; i++) {
             //for each road
             var cur_road = roads.features[i];
@@ -53,12 +53,13 @@ describe('parse geojson', () => {
                 roads_list[i].nodes[j].add_adjacent_node(roads_list[i].nodes[j + 1], weight);
             }
         }
-        console.log(nodes_list);
-        console.log("{\"nodes: [\"")
-        for (var i = 0; i < nodes_list.length; i++) {
-            console.log("{" + nodes_list[i].lat + "," + nodes_list[i].lon + "},");
+        var str = "";
+        str += "{\"nodes\": [\"";
+        for (var x in nodes_list) {
+            str += "{\"lon\":" + nodes_list[x].lat + ", \"lat\":" + nodes_list[x].lon + "},";
         }
-        console.log("]}");
+        str += "]}";
+        console.log(str);
 		expect(roads).not.toEqual('undefined');
 	})
 });

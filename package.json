@@ -5,16 +5,18 @@
   "homepage": "https://slamdewey.github.io/temple-crime-router",
   "dependencies": {
     "cross-fetch": "^3.0.2",
-    "leaflet": "^1.4.0",
     "geojson": "^0.5.0",
+    "leaflet": "^1.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-leaflet": "^2.2.1",
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
     "redux-mock-store": "^1.5.3",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "save": "^2.3.3"
   },
   "scripts": {
     "predeploy": "npm run build",
