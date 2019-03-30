@@ -1,24 +1,20 @@
-import React, {Component} from 'react';
+import React, {Component, button} from 'react';
 
 
 class Home extends Component {
 
-    fetch_street_map() {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                console.log(response.text);
-            }
-        };
-        xhttp.open("GET", "home.css", true);
-        xhttp.send();
+    createReduxDataStore
+    _add_error = () => {
+        this.props.addError("test");
     }
 
     render() {
-        this.fetch_street_map();
+        //this.fetch_street_map();
         return(
             <div>
-                
+                Hello!
+                <button onClick = {this._add_error}>
+                </button>
             </div>
         );
     }
