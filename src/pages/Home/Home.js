@@ -1,7 +1,9 @@
 import React, {Component, button} from 'react';
-import { Map as LeafletMap, TileLayer, Marker, Popup } from 'react-leaflet';
+import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import './Home.css'
 import Directions from '../../components/Directions/DirectionsContainer'
+import Routing from '../../components/Routing/Routing';
+
 
 const data = require('./nodes.json');
 
@@ -26,9 +28,9 @@ class Home extends Component {
         return(
             <div>
                 <Directions />
-                <div class="mapWrapper">
-                    <LeafletMap
-                        center={[data.nodes[0].lon, data.nodes[0].lat]}
+                <div className="mapWrapper">
+                    <Map
+                        center={[11.1,11.1]}
                         zoom={15}
                         maxZoom={19}
                         attributionControl={true}
@@ -39,12 +41,15 @@ class Home extends Component {
                         animate={true}
                         easeLinearity={0.35}
                       >
+                        <Routing
+                            strt={[11.1,11.1]}
+                            to={[11.2,11.2]}
+                        />
                         <TileLayer
                           url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
                         />
-                        
                          {this.renderMarker(data.nodes[0])}
-                      </LeafletMap>
+                      </Map>
                     </div>
             </div>
         );

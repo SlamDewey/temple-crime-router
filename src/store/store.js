@@ -9,13 +9,15 @@ const consoleMessages = store => next => action => {
 	console.groupCollapsed(`dispatching action => ${action.type}`)
 	result = next(action)
 
-	let { route, safetyRating, fetching, errors, markers } = store.getState()
+	let { start, end, route, safetyRating, fetching, errors, markers } = store.getState()
 	console.log(`
 		route: ${route}
 		safetyRating: ${safetyRating}
 		fetching: ${fetching}
 		errors: ${errors}
 		markers: ${markers}
+		start: ${start}
+		end: ${end}
 	`)
 
 	console.groupEnd()

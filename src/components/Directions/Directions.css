@@ -1,6 +1,6 @@
 .directionsContainer {
 	width: 400px;
-	height: 100px;
+	height: 80px;
 	background-color: #e8e8e8;
 	position: absolute;
 	display: flex;
@@ -19,9 +19,12 @@
 }
 
 .directionsButton {
+	background-color: #53B4A5;
 	flex: 1;
 	z-index: 1001;
 	height: 100%;
 	width: 100%;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
 
 }

@@ -1,27 +1,22 @@
 import {connect} from 'react-redux'
 import AddressInput from './AddressInput'
-import { addError, clearError, fetchRoute } from '../../store/actions'
+import { addError, clearError, fetchRoute, updateStart, updateEnd } from '../../store/actions'
 
 const mapStateToProps = (state) => {
     return {
-        errors: state.errors,
         fetching: state.fetching,
-        safetyRating: state.safetyRating,
-        route: state.route,
+        start       : state.start,
+        end         : state.end
     }
 }
 
 const mapDispatchToProps = dispatch => {
     return {
-        addError(message) {
-            dispatch (
-                addError(message)
-            )
+        updateStart(index) {
+            dispatch (updateStart(index))
         },
-        clearError(index) {
-            dispatch (
-                clearError(index)
-            )
+        updateEnd(index) {
+            dispatch (updateEnd(index))
         },
     }
 }
