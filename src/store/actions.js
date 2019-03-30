@@ -14,12 +14,23 @@ export const clearError = index =>
         type: Constant.CLEAR_ERROR,
         payload: index
     })
+export const updateStart = address =>
+    ({
+        type: Constant.UPDATE_START,
+        payload: address
+    })
+export const updateEnd = address =>
+    ({
+        type: Constant.UPDATE_END,
+        payload: address
+    })
+
 
 
 export const fetchRoute = addresses => dispatch => {
 
     dispatch({
-        type: Constant.FETCH_ACHIEVEMENTS
+        type: Constant.FETCH_ROUTE
     })
 
    fetch(host + '/' + JSON.stringify(addresses))
@@ -38,7 +49,7 @@ export const fetchRoute = addresses => dispatch => {
             )
 
             dispatch({
-                type: Constant.CANCEL_FETCHING
+                type: Constant.CANCEL_FETCH
             })
 
         })
