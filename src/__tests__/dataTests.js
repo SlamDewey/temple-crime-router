@@ -1,5 +1,4 @@
 import expect from 'expect'
-const GeoJSON = require('geojson');
 
 const map = require('../../data/geojson/roads.json')
 
