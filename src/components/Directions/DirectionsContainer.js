@@ -1,6 +1,6 @@
 import {connect} from 'react-redux'
 import Directions from './Directions'
-import { addError, clearError, fetchRoute } from '../../store/actions'
+import { updateStart, updateEnd, addError, clearError, fetchRoute } from '../../store/actions'
 
 const mapStateToProps = (state) => {
     return {
@@ -8,6 +8,8 @@ const mapStateToProps = (state) => {
         fetching: state.fetching,
         safetyRating: state.safetyRating,
         route: state.route,
+        start: state.start,
+        end: state.end,
     }
 }
 
@@ -21,6 +23,21 @@ const mapDispatchToProps = dispatch => {
         clearError(index) {
             dispatch (
                 clearError(index)
+            )
+        },
+        fetchRoute(addresses) {
+            dispatch (
+                fetchRoute(addresses)
+            )
+        },
+        updateStart(address) {
+            dispatch (
+                updateStart(address)
+            )
+        },
+        updateEnd(address) {
+            dispatch (
+                updateEnd(address)
             )
         },
     }

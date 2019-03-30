@@ -3,10 +3,25 @@
 	height: 100px;
 	background-color: #e8e8e8;
 	position: absolute;
-	display: block;
+	display: flex;
 	margin-top: 20px;
 	margin-left: 20px;
 	z-index: 1000;
 	border-radius: 20px;
+	flex-direction: row;
+}
+.inputContainer {
+	flex: 4;
+	z-index: 1001;
+	height: 100%;
+	width: 100%;
+
+}
+
+.directionsButton {
+	flex: 1;
+	z-index: 1001;
+	height: 100%;
+	width: 100%;
 
 }
