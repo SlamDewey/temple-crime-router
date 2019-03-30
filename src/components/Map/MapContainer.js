@@ -1,5 +1,5 @@
 import {connect} from 'react-redux'
-import Map from './Map'
+import MapComponent from './Map'
 import { addError, clearError, fetchRoute } from '../../store/actions'
 
 const mapStateToProps = (state) => {

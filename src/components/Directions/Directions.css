@@ -1,0 +1,9 @@
+.directionsContainer {
+	width: 100px;
+	height: 50px;
+	background-color: #e8e8e8;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20px;
+	z-index: 11;
+}
