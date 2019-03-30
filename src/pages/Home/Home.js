@@ -1,6 +1,5 @@
 import React, {Component, button} from 'react';
 
-
 class Home extends Component {
 
     createReduxDataStore

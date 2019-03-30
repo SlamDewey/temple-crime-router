@@ -10,8 +10,12 @@
     "react-dom": "^16.8.6",
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.0",
+<<<<<<< HEAD
     "react-scripts": "2.1.8",
     "redux-mock-store": "^1.5.3",
+=======
+    "react-scripts": "^2.1.8",
+>>>>>>> master
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
