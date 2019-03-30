@@ -47,21 +47,15 @@ describe('parse geojson', () => {
                     roads_list[i].nodes[j] = nodes_list[n_id];
                 }
             }
-            for (var j = 1; j < coords - 1; j++) {
+            for (var j = 0; j < coords - 1; j++) {
                 var weight = 0;
-                if (j == 1) {
-                    roads_list[i].nodes[j - 1].add_adjacent_node(roads_list[i].nodes[j], weight);
-                }
-                roads_list[i].nodes[j].add_adjacent_node(roads_list[i].nodes[j - 1], weight);
                 roads_list[i].nodes[j + 1].add_adjacent_node(roads_list[i].nodes[j], weight);
                 roads_list[i].nodes[j].add_adjacent_node(roads_list[i].nodes[j + 1], weight);
             }
         }
-        console.log(roads_list[0]);
-        //console.log(nodes_list);
-        console.log("____________________");
-        console.log(roads_list[0].name);
-        console.log(roads_list[0].nodes[1].edges);
+        for (var i = 0; i < nodes_list.length; i++) {
+            if (nodes_list[i].edges.length > 2) console.log("intersection!");
+        }
 		expect(roads).not.toEqual('undefined');
 	})
 });
