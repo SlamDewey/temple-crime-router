@@ -1,0 +1,5104 @@
+{
+    "type": "FeatureCollection",
+    "name": "railways",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 12182416,
+                "oneway": "yes",
+                "railway": "tram",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "0",
+                "gauge": "1581",
+                "voltage": "600",
+                "electrified": "contact_line",
+                "usage": null,
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1868627,
+                        39.9749973
+                    ],
+                    [
+                        -75.1861777,
+                        39.9749089
+                    ],
+                    [
+                        -75.1850982,
+                        39.9747642
+                    ],
+                    [
+                        -75.1834692,
+                        39.9745523
+                    ],
+                    [
+                        -75.1818565,
+                        39.9743509
+                    ],
+                    [
+                        -75.1810972,
+                        39.9742469
+                    ],
+                    [
+                        -75.1804377,
+                        39.9741616
+                    ],
+                    [
+                        -75.179647,
+                        39.9740607
+                    ],
+                    [
+                        -75.1790197,
+                        39.9739796
+                    ],
+                    [
+                        -75.1789739,
+                        39.9739732
+                    ],
+                    [
+                        -75.1789417,
+                        39.9739547
+                    ],
+                    [
+                        -75.1789123,
+                        39.9739295
+                    ],
+                    [
+                        -75.1788935,
+                        39.9738945
+                    ],
+                    [
+                        -75.1788836,
+                        39.9738292
+                    ],
+                    [
+                        -75.1791164,
+                        39.972774
+                    ],
+                    [
+                        -75.1791053,
+                        39.9727215
+                    ],
+                    [
+                        -75.1790891,
+                        39.9726818
+                    ],
+                    [
+                        -75.1790574,
+                        39.9726425
+                    ],
+                    [
+                        -75.1790168,
+                        39.9726228
+                    ],
+                    [
+                        -75.1789685,
+                        39.9726105
+                    ],
+                    [
+                        -75.1786024,
+                        39.9725628
+                    ],
+                    [
+                        -75.1780968,
+                        39.9724968
+                    ],
+                    [
+                        -75.177544,
+                        39.9724331
+                    ],
+                    [
+                        -75.1770373,
+                        39.9723694
+                    ],
+                    [
+                        -75.1765412,
+                        39.9723034
+                    ],
+                    [
+                        -75.1764548,
+                        39.9723016
+                    ],
+                    [
+                        -75.176377,
+                        39.9723003
+                    ],
+                    [
+                        -75.1763163,
+                        39.9723058
+                    ],
+                    [
+                        -75.1762432,
+                        39.9723174
+                    ],
+                    [
+                        -75.1759277,
+                        39.9723589
+                    ],
+                    [
+                        -75.1714226,
+                        39.9728887
+                    ],
+                    [
+                        -75.1710598,
+                        39.9729314
+                    ],
+                    [
+                        -75.1709898,
+                        39.9729348
+                    ],
+                    [
+                        -75.1709101,
+                        39.9729276
+                    ],
+                    [
+                        -75.1703328,
+                        39.9728466
+                    ],
+                    [
+                        -75.1689884,
+                        39.9726716
+                    ],
+                    [
+                        -75.167422,
+                        39.9724739
+                    ],
+                    [
+                        -75.1664998,
+                        39.9723545
+                    ],
+                    [
+                        -75.1663304,
+                        39.9723346
+                    ],
+                    [
+                        -75.165849,
+                        39.9722706
+                    ],
+                    [
+                        -75.1642827,
+                        39.9720697
+                    ],
+                    [
+                        -75.1627063,
+                        39.9718692
+                    ],
+                    [
+                        -75.16113,
+                        39.9716634
+                    ],
+                    [
+                        -75.1602842,
+                        39.9715571
+                    ],
+                    [
+                        -75.1594425,
+                        39.9714476
+                    ],
+                    [
+                        -75.157298,
+                        39.9711785
+                    ],
+                    [
+                        -75.15602,
+                        39.9710186
+                    ],
+                    [
+                        -75.1557224,
+                        39.9709814
+                    ],
+                    [
+                        -75.1543987,
+                        39.9708103
+                    ],
+                    [
+                        -75.1541528,
+                        39.9707785
+                    ],
+                    [
+                        -75.1533588,
+                        39.9706736
+                    ],
+                    [
+                        -75.1525803,
+                        39.9705708
+                    ],
+                    [
+                        -75.1523739,
+                        39.9705581
+                    ],
+                    [
+                        -75.1518945,
+                        39.9705384
+                    ],
+                    [
+                        -75.1509518,
+                        39.9705094
+                    ],
+                    [
+                        -75.1502201,
+                        39.9704919
+                    ],
+                    [
+                        -75.1499686,
+                        39.9704859
+                    ],
+                    [
+                        -75.1489706,
+                        39.9704619
+                    ],
+                    [
+                        -75.1484502,
+                        39.9704469
+                    ],
+                    [
+                        -75.1481508,
+                        39.9704383
+                    ],
+                    [
+                        -75.1473395,
+                        39.9704099
+                    ],
+                    [
+                        -75.1467305,
+                        39.9703977
+                    ],
+                    [
+                        -75.1465429,
+                        39.97038
+                    ],
+                    [
+                        -75.1452918,
+                        39.9702248
+                    ],
+                    [
+                        -75.1450301,
+                        39.9701924
+                    ],
+                    [
+                        -75.1435909,
+                        39.9700113
+                    ],
+                    [
+                        -75.1430913,
+                        39.9699473
+                    ],
+                    [
+                        -75.1423734,
+                        39.9698588
+                    ],
+                    [
+                        -75.1417946,
+                        39.9697841
+                    ],
+                    [
+                        -75.1415252,
+                        39.9697494
+                    ],
+                    [
+                        -75.1406603,
+                        39.9696402
+                    ],
+                    [
+                        -75.1398694,
+                        39.9695424
+                    ],
+                    [
+                        -75.1396487,
+                        39.9695151
+                    ],
+                    [
+                        -75.1395991,
+                        39.9695056
+                    ],
+                    [
+                        -75.1395554,
+                        39.9694974
+                    ],
+                    [
+                        -75.1385016,
+                        39.9693054
+                    ],
+                    [
+                        -75.1379675,
+                        39.9692063
+                    ],
+                    [
+                        -75.1377683,
+                        39.9691717
+                    ],
+                    [
+                        -75.1372416,
+                        39.9690715
+                    ],
+                    [
+                        -75.1367854,
+                        39.9689891
+                    ],
+                    [
+                        -75.1364822,
+                        39.9689338
+                    ],
+                    [
+                        -75.1362387,
+                        39.9688894
+                    ],
+                    [
+                        -75.1353678,
+                        39.9687207
+                    ],
+                    [
+                        -75.1352157,
+                        39.9686995
+                    ],
+                    [
+                        -75.1350417,
+                        39.9686823
+                    ],
+                    [
+                        -75.1348922,
+                        39.9686839
+                    ],
+                    [
+                        -75.1347674,
+                        39.968699
+                    ],
+                    [
+                        -75.134675,
+                        39.968722
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 362319496,
+                "oneway": "yes",
+                "railway": "tram",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "0",
+                "gauge": "1581",
+                "voltage": "600",
+                "electrified": "contact_line",
+                "usage": null,
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1346863,
+                        39.9687488
+                    ],
+                    [
+                        -75.1347759,
+                        39.9687265
+                    ],
+                    [
+                        -75.1348954,
+                        39.9687121
+                    ],
+                    [
+                        -75.1350397,
+                        39.9687105
+                    ],
+                    [
+                        -75.1352101,
+                        39.9687273
+                    ],
+                    [
+                        -75.135357,
+                        39.9687519
+                    ],
+                    [
+                        -75.1359339,
+                        39.9688602
+                    ],
+                    [
+                        -75.1362305,
+                        39.9689159
+                    ],
+                    [
+                        -75.1367766,
+                        39.9690166
+                    ],
+                    [
+                        -75.1372343,
+                        39.9690978
+                    ],
+                    [
+                        -75.1377638,
+                        39.9691941
+                    ],
+                    [
+                        -75.1379621,
+                        39.9692313
+                    ],
+                    [
+                        -75.1384938,
+                        39.9693359
+                    ],
+                    [
+                        -75.1393067,
+                        39.9694833
+                    ],
+                    [
+                        -75.1395477,
+                        39.969527
+                    ],
+                    [
+                        -75.1396188,
+                        39.9695372
+                    ],
+                    [
+                        -75.1396891,
+                        39.9695474
+                    ],
+                    [
+                        -75.1406709,
+                        39.9696713
+                    ],
+                    [
+                        -75.1413163,
+                        39.9697537
+                    ],
+                    [
+                        -75.1415189,
+                        39.9697796
+                    ],
+                    [
+                        -75.1423666,
+                        39.9698868
+                    ],
+                    [
+                        -75.1428375,
+                        39.9699424
+                    ],
+                    [
+                        -75.1430861,
+                        39.9699718
+                    ],
+                    [
+                        -75.1435858,
+                        39.9700371
+                    ],
+                    [
+                        -75.1447587,
+                        39.9701827
+                    ],
+                    [
+                        -75.1450252,
+                        39.9702158
+                    ],
+                    [
+                        -75.1465394,
+                        39.9704068
+                    ],
+                    [
+                        -75.146728,
+                        39.9704259
+                    ],
+                    [
+                        -75.1473349,
+                        39.9704381
+                    ],
+                    [
+                        -75.1478881,
+                        39.9704562
+                    ],
+                    [
+                        -75.1481464,
+                        39.9704647
+                    ],
+                    [
+                        -75.148965,
+                        39.9704911
+                    ],
+                    [
+                        -75.149721,
+                        39.9705113
+                    ],
+                    [
+                        -75.1499621,
+                        39.9705178
+                    ],
+                    [
+                        -75.1509492,
+                        39.970538
+                    ],
+                    [
+                        -75.1518878,
+                        39.9705709
+                    ],
+                    [
+                        -75.1523713,
+                        39.9705862
+                    ],
+                    [
+                        -75.1525721,
+                        39.9705997
+                    ],
+                    [
+                        -75.1533525,
+                        39.9707014
+                    ],
+                    [
+                        -75.1537359,
+                        39.9707537
+                    ],
+                    [
+                        -75.1539224,
+                        39.9707792
+                    ],
+                    [
+                        -75.1541469,
+                        39.9708098
+                    ],
+                    [
+                        -75.1553394,
+                        39.9709607
+                    ],
+                    [
+                        -75.1557165,
+                        39.9710084
+                    ],
+                    [
+                        -75.1572911,
+                        39.97121
+                    ],
+                    [
+                        -75.1589356,
+                        39.9714205
+                    ],
+                    [
+                        -75.1594341,
+                        39.9714843
+                    ],
+                    [
+                        -75.1602765,
+                        39.9715924
+                    ],
+                    [
+                        -75.1611215,
+                        39.9717031
+                    ],
+                    [
+                        -75.1626985,
+                        39.9719049
+                    ],
+                    [
+                        -75.1642743,
+                        39.9721065
+                    ],
+                    [
+                        -75.1658418,
+                        39.9723057
+                    ],
+                    [
+                        -75.1663226,
+                        39.9723709
+                    ],
+                    [
+                        -75.166529,
+                        39.9723958
+                    ],
+                    [
+                        -75.1674142,
+                        39.9725099
+                    ],
+                    [
+                        -75.168795,
+                        39.9726852
+                    ],
+                    [
+                        -75.1689802,
+                        39.9727089
+                    ],
+                    [
+                        -75.1703243,
+                        39.972881
+                    ],
+                    [
+                        -75.170903,
+                        39.9729622
+                    ],
+                    [
+                        -75.1709886,
+                        39.97297
+                    ],
+                    [
+                        -75.171067,
+                        39.9729675
+                    ],
+                    [
+                        -75.1714226,
+                        39.9728887
+                    ],
+                    [
+                        -75.1759277,
+                        39.9723967
+                    ],
+                    [
+                        -75.1762515,
+                        39.9723534
+                    ],
+                    [
+                        -75.1762632,
+                        39.9723518
+                    ],
+                    [
+                        -75.1763804,
+                        39.9723369
+                    ],
+                    [
+                        -75.176451,
+                        39.9723381
+                    ],
+                    [
+                        -75.1765339,
+                        39.9723468
+                    ],
+                    [
+                        -75.1770289,
+                        39.9724096
+                    ],
+                    [
+                        -75.1775363,
+                        39.9724697
+                    ],
+                    [
+                        -75.1776949,
+                        39.9725081
+                    ],
+                    [
+                        -75.1777496,
+                        39.9725445
+                    ],
+                    [
+                        -75.1777799,
+                        39.9725666
+                    ],
+                    [
+                        -75.1778221,
+                        39.9726064
+                    ],
+                    [
+                        -75.1778496,
+                        39.972657
+                    ],
+                    [
+                        -75.1778727,
+                        39.9727182
+                    ],
+                    [
+                        -75.1778829,
+                        39.9728309
+                    ],
+                    [
+                        -75.1778737,
+                        39.9730481
+                    ],
+                    [
+                        -75.1778447,
+                        39.9737289
+                    ],
+                    [
+                        -75.177863,
+                        39.9737713
+                    ],
+                    [
+                        -75.1778779,
+                        39.9737965
+                    ],
+                    [
+                        -75.1778927,
+                        39.9738158
+                    ],
+                    [
+                        -75.1779123,
+                        39.9738328
+                    ],
+                    [
+                        -75.1779313,
+                        39.973845
+                    ],
+                    [
+                        -75.1779573,
+                        39.9738617
+                    ],
+                    [
+                        -75.1780214,
+                        39.973883
+                    ],
+                    [
+                        -75.1781344,
+                        39.9739137
+                    ],
+                    [
+                        -75.1786801,
+                        39.9739759
+                    ],
+                    [
+                        -75.1788482,
+                        39.9739951
+                    ],
+                    [
+                        -75.1790119,
+                        39.9740138
+                    ],
+                    [
+                        -75.179639,
+                        39.974098
+                    ],
+                    [
+                        -75.1804289,
+                        39.9742026
+                    ],
+                    [
+                        -75.1818488,
+                        39.9743878
+                    ],
+                    [
+                        -75.1834596,
+                        39.9745903
+                    ],
+                    [
+                        -75.1850925,
+                        39.9747969
+                    ],
+                    [
+                        -75.1861724,
+                        39.9749332
+                    ],
+                    [
+                        -75.1868767,
+                        39.9750241
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678973,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1509944,
+                        39.970704
+                    ],
+                    [
+                        -75.1510736,
+                        39.9703514
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679010,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1508588,
+                        39.9706848
+                    ],
+                    [
+                        -75.1506954,
+                        39.9714203
+                    ],
+                    [
+                        -75.1505666,
+                        39.9720072
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679036,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1507074,
+                        39.9720226
+                    ],
+                    [
+                        -75.1508751,
+                        39.9712559
+                    ],
+                    [
+                        -75.1509944,
+                        39.970704
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50165965,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1506604,
+                        39.9720103
+                    ],
+                    [
+                        -75.1508601,
+                        39.9711083
+                    ],
+                    [
+                        -75.1509478,
+                        39.9706947
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679009,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1509041,
+                        39.970693
+                    ],
+                    [
+                        -75.1507422,
+                        39.9714279
+                    ],
+                    [
+                        -75.1506136,
+                        39.9720123
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679017,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1506511,
+                        39.9722806
+                    ],
+                    [
+                        -75.1507074,
+                        39.9720226
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50165968,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1506037,
+                        39.9722748
+                    ],
+                    [
+                        -75.1506604,
+                        39.9720103
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678991,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1506136,
+                        39.9720123
+                    ],
+                    [
+                        -75.1505572,
+                        39.9722703
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679052,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1505666,
+                        39.9720072
+                    ],
+                    [
+                        -75.1505103,
+                        39.97226
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679069,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1504419,
+                        39.9732497
+                    ],
+                    [
+                        -75.1506511,
+                        39.9722806
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50165957,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1503959,
+                        39.9732445
+                    ],
+                    [
+                        -75.1506037,
+                        39.9722748
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678974,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1505572,
+                        39.9722703
+                    ],
+                    [
+                        -75.1503476,
+                        39.9732469
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679060,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1505103,
+                        39.97226
+                    ],
+                    [
+                        -75.1502997,
+                        39.9732374
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679061,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1503926,
+                        39.9735032
+                    ],
+                    [
+                        -75.1504419,
+                        39.9732497
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 12112396,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1503455,
+                        39.9734982
+                    ],
+                    [
+                        -75.1503959,
+                        39.9732445
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678993,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1502997,
+                        39.9732374
+                    ],
+                    [
+                        -75.1502507,
+                        39.9734913
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678978,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1503476,
+                        39.9732469
+                    ],
+                    [
+                        -75.1502971,
+                        39.9734953
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679001,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1502731,
+                        39.9746753
+                    ],
+                    [
+                        -75.1502974,
+                        39.9742968
+                    ],
+                    [
+                        -75.1503181,
+                        39.9740789
+                    ],
+                    [
+                        -75.1503446,
+                        39.9738296
+                    ],
+                    [
+                        -75.1503672,
+                        39.973659
+                    ],
+                    [
+                        -75.1503926,
+                        39.9735032
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 12196169,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1502239,
+                        39.9746732
+                    ],
+                    [
+                        -75.1502484,
+                        39.9742945
+                    ],
+                    [
+                        -75.1502691,
+                        39.974076
+                    ],
+                    [
+                        -75.1502956,
+                        39.9738262
+                    ],
+                    [
+                        -75.1503184,
+                        39.973655
+                    ],
+                    [
+                        -75.1503455,
+                        39.9734982
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679039,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1502971,
+                        39.9734953
+                    ],
+                    [
+                        -75.1502744,
+                        39.9736514
+                    ],
+                    [
+                        -75.1502517,
+                        39.9738231
+                    ],
+                    [
+                        -75.150225,
+                        39.9740734
+                    ],
+                    [
+                        -75.1502043,
+                        39.9742924
+                    ],
+                    [
+                        -75.1501794,
+                        39.9746702
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678984,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1502507,
+                        39.9734913
+                    ],
+                    [
+                        -75.1502281,
+                        39.9736477
+                    ],
+                    [
+                        -75.1502052,
+                        39.9738198
+                    ],
+                    [
+                        -75.1501786,
+                        39.9740706
+                    ],
+                    [
+                        -75.1501577,
+                        39.9742902
+                    ],
+                    [
+                        -75.1501322,
+                        39.9746681
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679002,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1502554,
+                        39.9749458
+                    ],
+                    [
+                        -75.1502731,
+                        39.9746753
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50165854,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1502082,
+                        39.9749438
+                    ],
+                    [
+                        -75.1502239,
+                        39.9746732
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679024,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1501794,
+                        39.9746702
+                    ],
+                    [
+                        -75.1501619,
+                        39.9749418
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679063,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1501322,
+                        39.9746681
+                    ],
+                    [
+                        -75.1501146,
+                        39.9749398
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678996,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.150173,
+                        39.976148
+                    ],
+                    [
+                        -75.1502245,
+                        39.9753743
+                    ],
+                    [
+                        -75.1502554,
+                        39.9749458
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50165844,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1501258,
+                        39.9761461
+                    ],
+                    [
+                        -75.1501772,
+                        39.9753724
+                    ],
+                    [
+                        -75.1502082,
+                        39.9749438
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679030,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1501619,
+                        39.9749418
+                    ],
+                    [
+                        -75.1501309,
+                        39.9753705
+                    ],
+                    [
+                        -75.1500795,
+                        39.9761443
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679071,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1501146,
+                        39.9749398
+                    ],
+                    [
+                        -75.1500837,
+                        39.9753685
+                    ],
+                    [
+                        -75.1500322,
+                        39.9761425
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50165825,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1501142,
+                        39.9763399
+                    ],
+                    [
+                        -75.1501258,
+                        39.9761461
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679029,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1501629,
+                        39.9763418
+                    ],
+                    [
+                        -75.150173,
+                        39.976148
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679034,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1500795,
+                        39.9761443
+                    ],
+                    [
+                        -75.150067,
+                        39.9763381
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679027,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1500322,
+                        39.9761425
+                    ],
+                    [
+                        -75.1500206,
+                        39.9763363
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679021,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1500516,
+                        39.9775702
+                    ],
+                    [
+                        -75.1500939,
+                        39.9772362
+                    ],
+                    [
+                        -75.1501171,
+                        39.9770141
+                    ],
+                    [
+                        -75.1501258,
+                        39.9769182
+                    ],
+                    [
+                        -75.1501553,
+                        39.9764571
+                    ],
+                    [
+                        -75.1501629,
+                        39.9763418
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50165828,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1500075,
+                        39.9775634
+                    ],
+                    [
+                        -75.1500453,
+                        39.9772331
+                    ],
+                    [
+                        -75.1500685,
+                        39.9770113
+                    ],
+                    [
+                        -75.1500771,
+                        39.976916
+                    ],
+                    [
+                        -75.1501066,
+                        39.9764553
+                    ],
+                    [
+                        -75.1501142,
+                        39.9763399
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679000,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.150067,
+                        39.9763381
+                    ],
+                    [
+                        -75.1500594,
+                        39.9764535
+                    ],
+                    [
+                        -75.1500299,
+                        39.9769139
+                    ],
+                    [
+                        -75.1500213,
+                        39.9770086
+                    ],
+                    [
+                        -75.1499982,
+                        39.9772301
+                    ],
+                    [
+                        -75.1499604,
+                        39.97756
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678995,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1500206,
+                        39.9763363
+                    ],
+                    [
+                        -75.150013,
+                        39.9764517
+                    ],
+                    [
+                        -75.1499836,
+                        39.9769118
+                    ],
+                    [
+                        -75.149975,
+                        39.9770059
+                    ],
+                    [
+                        -75.1499519,
+                        39.9772271
+                    ],
+                    [
+                        -75.1499135,
+                        39.9775528
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679068,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1500274,
+                        39.977769
+                    ],
+                    [
+                        -75.1500516,
+                        39.9775702
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50165642,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1499831,
+                        39.9777651
+                    ],
+                    [
+                        -75.1500075,
+                        39.9775634
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679059,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1499604,
+                        39.97756
+                    ],
+                    [
+                        -75.1499348,
+                        39.9777612
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679013,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1499135,
+                        39.9775528
+                    ],
+                    [
+                        -75.1498892,
+                        39.9777574
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679048,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1498464,
+                        39.9791359
+                    ],
+                    [
+                        -75.1498865,
+                        39.9788157
+                    ],
+                    [
+                        -75.149956,
+                        39.9782885
+                    ],
+                    [
+                        -75.1500274,
+                        39.977769
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50165677,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1498004,
+                        39.9791327
+                    ],
+                    [
+                        -75.1498414,
+                        39.9788123
+                    ],
+                    [
+                        -75.1499109,
+                        39.9782849
+                    ],
+                    [
+                        -75.1499831,
+                        39.9777651
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679064,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1499348,
+                        39.9777612
+                    ],
+                    [
+                        -75.1498626,
+                        39.9782811
+                    ],
+                    [
+                        -75.1497931,
+                        39.9788086
+                    ],
+                    [
+                        -75.1497526,
+                        39.9791318
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679053,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1498892,
+                        39.9777574
+                    ],
+                    [
+                        -75.1498169,
+                        39.9782775
+                    ],
+                    [
+                        -75.1497474,
+                        39.9788051
+                    ],
+                    [
+                        -75.1497056,
+                        39.9791333
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679023,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1498205,
+                        39.9793006
+                    ],
+                    [
+                        -75.1498464,
+                        39.9791359
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50191480,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1497745,
+                        39.9792934
+                    ],
+                    [
+                        -75.1498004,
+                        39.9791327
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678998,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1497526,
+                        39.9791318
+                    ],
+                    [
+                        -75.1497274,
+                        39.9792935
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679028,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1497056,
+                        39.9791333
+                    ],
+                    [
+                        -75.1496814,
+                        39.97929
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679015,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1496962,
+                        39.980651
+                    ],
+                    [
+                        -75.1496828,
+                        39.980422
+                    ],
+                    [
+                        -75.1496855,
+                        39.980384
+                    ],
+                    [
+                        -75.1497015,
+                        39.9801814
+                    ],
+                    [
+                        -75.1497465,
+                        39.9798706
+                    ],
+                    [
+                        -75.1498205,
+                        39.9793006
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50191481,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1496289,
+                        39.9806451
+                    ],
+                    [
+                        -75.1496321,
+                        39.9803941
+                    ],
+                    [
+                        -75.1496549,
+                        39.980178
+                    ],
+                    [
+                        -75.1496999,
+                        39.9798668
+                    ],
+                    [
+                        -75.1497745,
+                        39.9792934
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679066,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1497274,
+                        39.9792935
+                    ],
+                    [
+                        -75.1496534,
+                        39.9798631
+                    ],
+                    [
+                        -75.1496084,
+                        39.9801746
+                    ],
+                    [
+                        -75.1495854,
+                        39.9803916
+                    ],
+                    [
+                        -75.1495856,
+                        39.9806397
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679057,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1496814,
+                        39.97929
+                    ],
+                    [
+                        -75.1496075,
+                        39.9798594
+                    ],
+                    [
+                        -75.1495624,
+                        39.9801712
+                    ],
+                    [
+                        -75.1495393,
+                        39.9803892
+                    ],
+                    [
+                        -75.1495232,
+                        39.9806304
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679049,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1496975,
+                        39.9809843
+                    ],
+                    [
+                        -75.1496962,
+                        39.980651
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50191483,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1496074,
+                        39.9809772
+                    ],
+                    [
+                        -75.1496289,
+                        39.9806451
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678987,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1495856,
+                        39.9806397
+                    ],
+                    [
+                        -75.149562,
+                        39.9809767
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679042,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1495232,
+                        39.9806304
+                    ],
+                    [
+                        -75.1494674,
+                        39.9809692
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679040,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1495858,
+                        39.9821779
+                    ],
+                    [
+                        -75.1496367,
+                        39.9817029
+                    ],
+                    [
+                        -75.1496571,
+                        39.9815422
+                    ],
+                    [
+                        -75.1496758,
+                        39.9814002
+                    ],
+                    [
+                        -75.1496945,
+                        39.9812009
+                    ],
+                    [
+                        -75.1496975,
+                        39.9809843
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50191482,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1494715,
+                        39.9821609
+                    ],
+                    [
+                        -75.149525,
+                        39.9816943
+                    ],
+                    [
+                        -75.1495454,
+                        39.9815337
+                    ],
+                    [
+                        -75.1495639,
+                        39.9813928
+                    ],
+                    [
+                        -75.1495824,
+                        39.9811956
+                    ],
+                    [
+                        -75.1496074,
+                        39.9809772
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678990,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.149562,
+                        39.9809767
+                    ],
+                    [
+                        -75.1495346,
+                        39.9811936
+                    ],
+                    [
+                        -75.1495235,
+                        39.9813116
+                    ],
+                    [
+                        -75.1495162,
+                        39.9813897
+                    ],
+                    [
+                        -75.1494978,
+                        39.9815301
+                    ],
+                    [
+                        -75.1494773,
+                        39.9816906
+                    ],
+                    [
+                        -75.1494271,
+                        39.9821554
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678983,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1494674,
+                        39.9809692
+                    ],
+                    [
+                        -75.149439,
+                        39.9811501
+                    ],
+                    [
+                        -75.1494067,
+                        39.9813824
+                    ],
+                    [
+                        -75.1493884,
+                        39.9815218
+                    ],
+                    [
+                        -75.1493679,
+                        39.9816821
+                    ],
+                    [
+                        -75.1493205,
+                        39.982144
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50191478,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1494514,
+                        39.9823415
+                    ],
+                    [
+                        -75.1494715,
+                        39.9821609
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679041,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1494271,
+                        39.9821554
+                    ],
+                    [
+                        -75.1494074,
+                        39.9823368
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679006,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1495617,
+                        39.9823571
+                    ],
+                    [
+                        -75.1495858,
+                        39.9821779
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679004,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1493205,
+                        39.982144
+                    ],
+                    [
+                        -75.1493012,
+                        39.9823261
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679038,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1495021,
+                        39.9835009
+                    ],
+                    [
+                        -75.1494897,
+                        39.9833857
+                    ],
+                    [
+                        -75.1494817,
+                        39.9833065
+                    ],
+                    [
+                        -75.149479,
+                        39.9832438
+                    ],
+                    [
+                        -75.149475,
+                        39.9831565
+                    ],
+                    [
+                        -75.149475,
+                        39.9830548
+                    ],
+                    [
+                        -75.1494776,
+                        39.9829654
+                    ],
+                    [
+                        -75.149487,
+                        39.98284
+                    ],
+                    [
+                        -75.1495181,
+                        39.9827095
+                    ],
+                    [
+                        -75.1495617,
+                        39.9823571
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50191479,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1494474,
+                        39.9835035
+                    ],
+                    [
+                        -75.1494325,
+                        39.9834157
+                    ],
+                    [
+                        -75.1494181,
+                        39.9832951
+                    ],
+                    [
+                        -75.1494036,
+                        39.983111
+                    ],
+                    [
+                        -75.1494031,
+                        39.9829426
+                    ],
+                    [
+                        -75.1494129,
+                        39.9827038
+                    ],
+                    [
+                        -75.1494514,
+                        39.9823415
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679045,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1494074,
+                        39.9823368
+                    ],
+                    [
+                        -75.1493678,
+                        39.9827077
+                    ],
+                    [
+                        -75.1493569,
+                        39.9829312
+                    ],
+                    [
+                        -75.1493604,
+                        39.9831434
+                    ],
+                    [
+                        -75.1493711,
+                        39.9832883
+                    ],
+                    [
+                        -75.1493848,
+                        39.9834067
+                    ],
+                    [
+                        -75.1494027,
+                        39.9835064
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679035,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1493012,
+                        39.9823261
+                    ],
+                    [
+                        -75.1492836,
+                        39.9824864
+                    ],
+                    [
+                        -75.1492727,
+                        39.982712
+                    ],
+                    [
+                        -75.1492685,
+                        39.9828429
+                    ],
+                    [
+                        -75.149275,
+                        39.9830562
+                    ],
+                    [
+                        -75.1492857,
+                        39.983171
+                    ],
+                    [
+                        -75.1492921,
+                        39.9832523
+                    ],
+                    [
+                        -75.1493086,
+                        39.9833408
+                    ],
+                    [
+                        -75.1493197,
+                        39.9834102
+                    ],
+                    [
+                        -75.1493282,
+                        39.9835189
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679074,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1529431,
+                        39.9904819
+                    ],
+                    [
+                        -75.1527775,
+                        39.9902243
+                    ],
+                    [
+                        -75.1526748,
+                        39.9900687
+                    ],
+                    [
+                        -75.152372,
+                        39.9896055
+                    ],
+                    [
+                        -75.1521866,
+                        39.9893196
+                    ],
+                    [
+                        -75.1520725,
+                        39.9891375
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50191456,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1528713,
+                        39.99045
+                    ],
+                    [
+                        -75.1527357,
+                        39.9902403
+                    ],
+                    [
+                        -75.1526331,
+                        39.9900847
+                    ],
+                    [
+                        -75.1523302,
+                        39.9896214
+                    ],
+                    [
+                        -75.1521446,
+                        39.9893353
+                    ],
+                    [
+                        -75.1520304,
+                        39.9891529
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678997,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1519882,
+                        39.9891685
+                    ],
+                    [
+                        -75.1521025,
+                        39.9893511
+                    ],
+                    [
+                        -75.1522882,
+                        39.9896375
+                    ],
+                    [
+                        -75.1525912,
+                        39.9901009
+                    ],
+                    [
+                        -75.1526938,
+                        39.9902564
+                    ],
+                    [
+                        -75.1528277,
+                        39.9904695
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679047,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1527674,
+                        39.9904541
+                    ],
+                    [
+                        -75.1527038,
+                        39.9903531
+                    ],
+                    [
+                        -75.1526529,
+                        39.9902721
+                    ],
+                    [
+                        -75.1525503,
+                        39.9901166
+                    ],
+                    [
+                        -75.1522473,
+                        39.9896531
+                    ],
+                    [
+                        -75.1520614,
+                        39.9893665
+                    ],
+                    [
+                        -75.1519469,
+                        39.9891836
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678988,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": "yard",
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "industrial",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1524199,
+                        39.9903503
+                    ],
+                    [
+                        -75.1523141,
+                        39.9901839
+                    ],
+                    [
+                        -75.1522645,
+                        39.9900976
+                    ],
+                    [
+                        -75.1522229,
+                        39.9900226
+                    ],
+                    [
+                        -75.1521987,
+                        39.9899774
+                    ],
+                    [
+                        -75.15218,
+                        39.9899342
+                    ],
+                    [
+                        -75.1521612,
+                        39.989889
+                    ],
+                    [
+                        -75.1521464,
+                        39.9898458
+                    ],
+                    [
+                        -75.1521089,
+                        39.9897174
+                    ],
+                    [
+                        -75.1521022,
+                        39.9896935
+                    ],
+                    [
+                        -75.152074,
+                        39.9895931
+                    ],
+                    [
+                        -75.1520418,
+                        39.9894893
+                    ],
+                    [
+                        -75.1519922,
+                        39.9893855
+                    ],
+                    [
+                        -75.151901,
+                        39.9892037
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 221097525,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": "yard",
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "industrial",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.152585,
+                        39.9904223
+                    ],
+                    [
+                        -75.1524536,
+                        39.9902178
+                    ],
+                    [
+                        -75.1524106,
+                        39.9901407
+                    ],
+                    [
+                        -75.1523744,
+                        39.9900719
+                    ],
+                    [
+                        -75.1523302,
+                        39.9899866
+                    ],
+                    [
+                        -75.1522926,
+                        39.9899116
+                    ],
+                    [
+                        -75.1522371,
+                        39.9897956
+                    ],
+                    [
+                        -75.1522282,
+                        39.989777
+                    ],
+                    [
+                        -75.1521531,
+                        39.9896188
+                    ],
+                    [
+                        -75.1520821,
+                        39.9894852
+                    ],
+                    [
+                        -75.151901,
+                        39.9892037
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678979,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": "yard",
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "industrial",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1521531,
+                        39.9896188
+                    ],
+                    [
+                        -75.1522275,
+                        39.9897362
+                    ],
+                    [
+                        -75.1523101,
+                        39.989853
+                    ],
+                    [
+                        -75.1523972,
+                        39.9899774
+                    ],
+                    [
+                        -75.1524683,
+                        39.9900781
+                    ],
+                    [
+                        -75.1525193,
+                        39.9901407
+                    ],
+                    [
+                        -75.1526011,
+                        39.9902312
+                    ],
+                    [
+                        -75.1527038,
+                        39.9903531
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678999,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": "yard",
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "industrial",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1524989,
+                        39.990377
+                    ],
+                    [
+                        -75.1524173,
+                        39.9902527
+                    ],
+                    [
+                        -75.1523489,
+                        39.9901438
+                    ],
+                    [
+                        -75.1522959,
+                        39.9900405
+                    ],
+                    [
+                        -75.1522819,
+                        39.9900133
+                    ],
+                    [
+                        -75.152251,
+                        39.9899507
+                    ],
+                    [
+                        -75.1522095,
+                        39.989851
+                    ],
+                    [
+                        -75.1520968,
+                        39.989591
+                    ],
+                    [
+                        -75.1520418,
+                        39.9894893
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679012,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "viaduct",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1520725,
+                        39.9891375
+                    ],
+                    [
+                        -75.1517431,
+                        39.9886394
+                    ],
+                    [
+                        -75.1515636,
+                        39.9883514
+                    ],
+                    [
+                        -75.1513293,
+                        39.987936
+                    ],
+                    [
+                        -75.1512413,
+                        39.9877605
+                    ],
+                    [
+                        -75.1511027,
+                        39.9874703
+                    ],
+                    [
+                        -75.1506543,
+                        39.9864274
+                    ],
+                    [
+                        -75.1503477,
+                        39.9857229
+                    ],
+                    [
+                        -75.150041,
+                        39.9850084
+                    ],
+                    [
+                        -75.1497954,
+                        39.9844481
+                    ],
+                    [
+                        -75.1496955,
+                        39.9841971
+                    ],
+                    [
+                        -75.1496445,
+                        39.9840631
+                    ],
+                    [
+                        -75.1495925,
+                        39.9839255
+                    ],
+                    [
+                        -75.1495619,
+                        39.9838317
+                    ],
+                    [
+                        -75.1495305,
+                        39.9836734
+                    ],
+                    [
+                        -75.1495021,
+                        39.9835009
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50191460,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1520304,
+                        39.9891529
+                    ],
+                    [
+                        -75.1516977,
+                        39.9886567
+                    ],
+                    [
+                        -75.1515175,
+                        39.9883674
+                    ],
+                    [
+                        -75.1512825,
+                        39.9879507
+                    ],
+                    [
+                        -75.1511939,
+                        39.9877741
+                    ],
+                    [
+                        -75.1510549,
+                        39.9874831
+                    ],
+                    [
+                        -75.1506062,
+                        39.9864396
+                    ],
+                    [
+                        -75.1503034,
+                        39.9857308
+                    ],
+                    [
+                        -75.1501602,
+                        39.9854033
+                    ],
+                    [
+                        -75.1499929,
+                        39.9850206
+                    ],
+                    [
+                        -75.1497523,
+                        39.9844579
+                    ],
+                    [
+                        -75.1496471,
+                        39.9842085
+                    ],
+                    [
+                        -75.1495959,
+                        39.9840739
+                    ],
+                    [
+                        -75.1495436,
+                        39.9839356
+                    ],
+                    [
+                        -75.1495126,
+                        39.9838406
+                    ],
+                    [
+                        -75.149467,
+                        39.9836832
+                    ],
+                    [
+                        -75.1494474,
+                        39.9835035
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679051,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1494027,
+                        39.9835064
+                    ],
+                    [
+                        -75.1494238,
+                        39.9836892
+                    ],
+                    [
+                        -75.1494699,
+                        39.9838483
+                    ],
+                    [
+                        -75.1495012,
+                        39.9839444
+                    ],
+                    [
+                        -75.1495537,
+                        39.9840833
+                    ],
+                    [
+                        -75.1496051,
+                        39.9842184
+                    ],
+                    [
+                        -75.1497106,
+                        39.9844683
+                    ],
+                    [
+                        -75.1499512,
+                        39.9850312
+                    ],
+                    [
+                        -75.1502618,
+                        39.9857414
+                    ],
+                    [
+                        -75.1505645,
+                        39.98645
+                    ],
+                    [
+                        -75.1510134,
+                        39.9874941
+                    ],
+                    [
+                        -75.1511527,
+                        39.9877859
+                    ],
+                    [
+                        -75.1512418,
+                        39.9879634
+                    ],
+                    [
+                        -75.1514776,
+                        39.9883813
+                    ],
+                    [
+                        -75.1516584,
+                        39.9886716
+                    ],
+                    [
+                        -75.1519882,
+                        39.9891685
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679005,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1519469,
+                        39.9891836
+                    ],
+                    [
+                        -75.1516089,
+                        39.9886904
+                    ],
+                    [
+                        -75.1514273,
+                        39.9883988
+                    ],
+                    [
+                        -75.1511953,
+                        39.9879725
+                    ],
+                    [
+                        -75.1511043,
+                        39.9877948
+                    ],
+                    [
+                        -75.1509696,
+                        39.987506
+                    ],
+                    [
+                        -75.150512,
+                        39.9864632
+                    ],
+                    [
+                        -75.150409,
+                        39.9862024
+                    ],
+                    [
+                        -75.1502094,
+                        39.9857547
+                    ],
+                    [
+                        -75.1499045,
+                        39.9850405
+                    ],
+                    [
+                        -75.1496581,
+                        39.9844814
+                    ],
+                    [
+                        -75.1495524,
+                        39.9842308
+                    ],
+                    [
+                        -75.1495007,
+                        39.9840951
+                    ],
+                    [
+                        -75.1494479,
+                        39.9839554
+                    ],
+                    [
+                        -75.1494162,
+                        39.983858
+                    ],
+                    [
+                        -75.1493695,
+                        39.9836968
+                    ],
+                    [
+                        -75.1493282,
+                        39.9835189
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678972,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": "yes",
+                "service": "yard",
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": "no",
+                "usage": "industrial",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1509388,
+                        39.9875464
+                    ],
+                    [
+                        -75.1510199,
+                        39.9877179
+                    ],
+                    [
+                        -75.1511299,
+                        39.9879408
+                    ],
+                    [
+                        -75.1512439,
+                        39.9881546
+                    ],
+                    [
+                        -75.1513954,
+                        39.9884207
+                    ],
+                    [
+                        -75.1515336,
+                        39.9886396
+                    ],
+                    [
+                        -75.1516623,
+                        39.9888338
+                    ],
+                    [
+                        -75.151901,
+                        39.9892037
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679016,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1529431,
+                        39.9904819
+                    ],
+                    [
+                        -75.1531267,
+                        39.9907618
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50191457,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1531179,
+                        39.9908305
+                    ],
+                    [
+                        -75.1528713,
+                        39.99045
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679054,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1528277,
+                        39.9904695
+                    ],
+                    [
+                        -75.153091,
+                        39.9908675
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678989,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1527674,
+                        39.9904541
+                    ],
+                    [
+                        -75.1530946,
+                        39.9909543
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678977,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": "yard",
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "industrial",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1528675,
+                        39.9908556
+                    ],
+                    [
+                        -75.1527191,
+                        39.9906298
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 221097527,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": "1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": "yard",
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "industrial",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1527191,
+                        39.9906298
+                    ],
+                    [
+                        -75.152585,
+                        39.9904223
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679070,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": "yes",
+                "layer": null,
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": "yard",
+                "tunnel": null,
+                "frequency": null,
+                "gauge": "1435",
+                "voltage": null,
+                "electrified": null,
+                "usage": "industrial",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1530428,
+                        39.9911223
+                    ],
+                    [
+                        -75.1528675,
+                        39.9908556
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679026,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "-1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1544926,
+                        39.993218
+                    ],
+                    [
+                        -75.1541022,
+                        39.9924641
+                    ],
+                    [
+                        -75.1538376,
+                        39.9919379
+                    ],
+                    [
+                        -75.1537284,
+                        39.9917322
+                    ],
+                    [
+                        -75.1535974,
+                        39.9915017
+                    ],
+                    [
+                        -75.1534466,
+                        39.9912545
+                    ],
+                    [
+                        -75.1532841,
+                        39.9910044
+                    ],
+                    [
+                        -75.1531267,
+                        39.9907618
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 50191454,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": null,
+                "operator": "SEPTA",
+                "name": "Main Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": "Reading",
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1544715,
+                        39.9932712
+                    ],
+                    [
+                        -75.1540559,
+                        39.992478
+                    ],
+                    [
+                        -75.1537914,
+                        39.9919519
+                    ],
+                    [
+                        -75.1536826,
+                        39.991747
+                    ],
+                    [
+                        -75.1535521,
+                        39.9915174
+                    ],
+                    [
+                        -75.1534018,
+                        39.9912711
+                    ],
+                    [
+                        -75.1532395,
+                        39.9910212
+                    ],
+                    [
+                        -75.1531179,
+                        39.9908305
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98679058,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "-1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": "passenger"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.153091,
+                        39.9908675
+                    ],
+                    [
+                        -75.1531992,
+                        39.9910364
+                    ],
+                    [
+                        -75.1533613,
+                        39.9912861
+                    ],
+                    [
+                        -75.1535112,
+                        39.9915316
+                    ],
+                    [
+                        -75.1536412,
+                        39.9917604
+                    ],
+                    [
+                        -75.1537496,
+                        39.9919646
+                    ],
+                    [
+                        -75.1540141,
+                        39.9924906
+                    ],
+                    [
+                        -75.1544604,
+                        39.9933417
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 98678971,
+                "oneway": null,
+                "railway": "rail",
+                "bridge": null,
+                "layer": "-1",
+                "operator": null,
+                "name": null,
+                "embankment": null,
+                "service": null,
+                "tunnel": null,
+                "frequency": "25",
+                "gauge": "1435",
+                "voltage": "12000",
+                "electrified": "contact_line",
+                "usage": "main",
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1530946,
+                        39.9909543
+                    ],
+                    [
+                        -75.1531566,
+                        39.9910525
+                    ],
+                    [
+                        -75.1533186,
+                        39.9913019
+                    ],
+                    [
+                        -75.1534576,
+                        39.9915405
+                    ],
+                    [
+                        -75.1535819,
+                        39.9917755
+                    ],
+                    [
+                        -75.1536939,
+                        39.9919802
+                    ],
+                    [
+                        -75.1539699,
+                        39.9925039
+                    ],
+                    [
+                        -75.1544468,
+                        39.9933971
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 62262592,
+                "oneway": null,
+                "railway": "subway",
+                "bridge": null,
+                "layer": "-2",
+                "operator": "SEPTA",
+                "name": "Broad Street Line",
+                "embankment": null,
+                "service": null,
+                "tunnel": "yes",
+                "frequency": "0",
+                "gauge": "1435",
+                "voltage": "600",
+                "electrified": "rail",
+                "usage": null,
+                "old_railway_operator": null,
+                "railway:traffic_mode": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1489281,
+                        40.0196807
+                    ],
+                    [
+                        -75.1489885,
+                        40.0193994
+                    ],
+                    [
+                        -75.1495168,
+                        40.0169388
+                    ],
+                    [
+                        -75.1496508,
+                        40.0163628
+                    ],
+                    [
+                        -75.1513432,
+                        40.0091197
+                    ],
+                    [
+                        -75.1529864,
+                        40.0017147
+                    ],
+                    [
+                        -75.1543752,
+                        39.9954491
+                    ],
+                    [
+                        -75.1561973,
+                        39.9870729
+                    ],
+                    [
+                        -75.1580054,
+                        39.9785877
+                    ],
+                    [
+                        -75.1595296,
+                        39.9713532
+                    ],
+                    [
+                        -75.1605174,
+                        39.9669221
+                    ]
+                ]
+            }
+        }
+    ]
+}
