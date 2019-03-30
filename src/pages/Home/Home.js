@@ -3,22 +3,23 @@ import { Map as LeafletMap, TileLayer, Marker, Popup } from 'react-leaflet';
 import './Home.css'
 import Directions from '../../components/Directions/DirectionsContainer'
 
-const data = require('./roads.json');
+const data = require('./nodes.json');
 
 class Home extends Component {
     _add_error = () => {
         this.props.addError("test");
     }
 
-    /*
-    {this.parseRoads(data).map((node, idx) => 
-                          <Marker key={`marker-${idx}`} position={node.lat, node.lon}>
-                          <Popup>
-                            <span>A pretty CSS3 popup. <br/> Easily customizable.</span>
-                          </Popup>
-                        </Marker>
-                    )}
-    */
+    renderMarker(node) {
+        console.log(node)
+        return (
+            <Marker position={node}>
+                <Popup>
+                    <span>A pretty CSS3 popup. <br/> Easily customizable.</span>
+                </Popup>
+            </Marker>
+        )
+    }
 
 
     render() {
@@ -27,7 +28,7 @@ class Home extends Component {
                 <Directions />
                 <div class="mapWrapper">
                     <LeafletMap
-                        center={[39.98, -75.16]}
+                        center={[data.nodes[0].lon, data.nodes[0].lat]}
                         zoom={15}
                         maxZoom={19}
                         attributionControl={true}
@@ -42,11 +43,7 @@ class Home extends Component {
                           url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
                         />
                         
-                        <Marker position={[39.98, -75.16]}>
-                          <Popup>
-                            test
-                          </Popup>
-                        </Marker>
+                         {this.renderMarker(data.nodes[0])}
                       </LeafletMap>
                     </div>
             </div>
