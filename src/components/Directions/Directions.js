@@ -8,10 +8,10 @@ class Directions extends Component {
 	}
     render() {
         return(
-            <div class="directionsContainer">
-            	<div class="inputContainer">
+            <div className="directionsContainer">
+            	<div className="inputContainer">
             	</div>
-            	<button class="directionsButton"
+            	<button className="directionsButton"
             			onClick={this._getRoute}>
             		Go
             	</button>

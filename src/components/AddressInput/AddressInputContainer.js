@@ -4,23 +4,20 @@ import { addError, clearError, fetchRoute } from '../../store/actions'
 
 const mapStateToProps = (state) => {
     return {
-        errors: state.errors,
         fetching: state.fetching,
-        safetyRating: state.safetyRating,
-        route: state.route,
     }
 }
 
 const mapDispatchToProps = dispatch => {
     return {
-        addError(message) {
+        updateStart(address) {
             dispatch (
-                addError(message)
+                updateStart(address)
             )
         },
-        clearError(index) {
+        updateEnd(address) {
             dispatch (
-                clearError(index)
+                updateEnd(address)
             )
         },
     }

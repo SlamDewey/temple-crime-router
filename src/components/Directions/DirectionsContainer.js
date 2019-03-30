@@ -1,6 +1,7 @@
 import {connect} from 'react-redux'
 import Directions from './Directions'
 import { updateStart, updateEnd, addError, clearError, fetchRoute } from '../../store/actions'
+import Routing from 'leaflet-routing-machine';
 
 const mapStateToProps = (state) => {
     return {
