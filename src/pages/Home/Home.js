@@ -1,4 +1,5 @@
 import React, {Component, button} from 'react';
+import Map from '../../components/Map/MapContainer'
 
 
 class Home extends Component {
@@ -15,6 +16,7 @@ class Home extends Component {
                 Hello!
                 <button onClick = {this._add_error}>
                 </button>
+                <Map/>
             </div>
         );
     }
