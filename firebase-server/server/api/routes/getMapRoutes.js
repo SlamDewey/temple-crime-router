@@ -1,4 +1,12 @@
-import expect from 'expect';
+
+const express = require('express');
+const router  = express.Router();
+const fs      = require('fs');
+
+
+/****
+ * BEGIN GRAPH CODE
+ */
 
 var id = function(lat, lon) {
     return lat+','+lon;
@@ -56,10 +64,10 @@ function generate_new_node(road1, road2, nir1, nir2) {
         totLat += Math.abs(road2.nodes[nir2].lat) + Math.abs(road2.nodes[nir2 + 1].lat);
         totLon += Math.abs(road2.nodes[nir2].lon) + Math.abs(road2.nodes[nir2 + 1].lon);
     //create new intersection node
-               totLat              /= 4;
-               totLon              /= -4;
-    var        shared_node          = new node(id(totLat, totLon), totLat, totLon);
-    nodes_list[id(totLat, totLon)]  = shared_node;
+                                                           totLat              /= 4;
+                                                           totLon              /= -4;
+                                                var        shared_node          = new node(id(totLat, totLon), totLat, totLon);
+                                                nodes_list[id(totLat, totLon)]  = shared_node;
     //rebuild connections
     //add connection n1 -> shared
     road1.nodes[nir1].add_adjacent_node(shared_node, 0);
@@ -79,7 +87,7 @@ function generate_new_node(road1, road2, nir1, nir2) {
     shared_node.add_adjacent_node(road2.nodes[nir2 + 1]);
 }
 
-const roads = require('../../data/geojson/roads.json');
+const roads = require('./roads.json');
 
 var roads_list = [];
 var nodes_list = [];
@@ -121,11 +129,11 @@ function get_nodes() {
                         var nodes_2 = roads_list[j].nodes;
                         if (nodes_1[n1 + 1] == undefined || nodes_2[n2 + 1] == undefined) continue;
                         var a, b, c, d;
-                            a   = new vec2(nodes_1[n1].lat, nodes_1[n1].lon);
-                            b   = new vec2(nodes_1[n1 + 1].lat, nodes_1[n1 + 1].lon);
-                            c   = new vec2(nodes_2[n2].lat, nodes_2[n2].lon);
-                            d   = new vec2(nodes_2[n2 + 1].lat, nodes_2[n2 + 1].lon);
-                        var res = LineIntersect(a, b, c, d);
+                                            a   = new vec2(nodes_1[n1].lat, nodes_1[n1].lon);
+                                            b   = new vec2(nodes_1[n1 + 1].lat, nodes_1[n1 + 1].lon);
+                                            c   = new vec2(nodes_2[n2].lat, nodes_2[n2].lon);
+                                            d   = new vec2(nodes_2[n2 + 1].lat, nodes_2[n2 + 1].lon);
+                                        var res = LineIntersect(a, b, c, d);
                         if (res.x < 1 && res.x > 0 && res.y < 1 && res.y > 0)
                             generate_new_node(roads_list[i], roads_list[j], n1, n2);
                     }
@@ -139,4 +147,45 @@ function get_nodes() {
         }
         str += "]}";
         return str;
+}
+/**
+ * END GRAPH CODE
+ */
+router.post('/', getMapRoutes);
+module.exports = router;
+
+// set up firebase connection
+// -------------------------
+const admin = require("firebase-admin");
+const path  = require('path')
+
+var serviceAccount = require("./owlhacks-b1e41-firebase-adminsdk.json");
+admin.initializeApp({
+	credential : admin.credential.cert(serviceAccount),
+	databaseURL: "https://owlhacks-b1e41.firebaseio.com"
+});
+
+var db = admin.database();
+// -------------------------
+
+async function get_map() {
+	var ref = db.ref("map/");
+	var map = {}
+    return Promise.resolve(ref.once("value"))
+}
+
+function getMapRoutes(req, res, next) {
+    if(!req.body) {res.status(400).json({message:'payload is empty!'});}
+    
+    console.log("responding!")
+    
+    var map = {}
+    get_map().then(v => {
+        map = v
+        res.status(200).json({
+            message: JSON.stringify(get_nodes())
+        })
+    })
+
+    
 }
