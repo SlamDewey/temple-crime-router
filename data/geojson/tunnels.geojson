@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "tunnels",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": 12201374, "layer": "-1", "highway": "residential", "name": "North 9th Street", "tunnel": "yes", "operator": null, "railway": null, "frequency": null, "gauge": null, "voltage": null, "electrified": null }, "geometry": { "type": "LineString", "coordinates": [ [ -75.151839, 39.9667692 ], [ -75.1517839, 39.966985 ], [ -75.1514943, 39.9681833 ], [ -75.1509632, 39.9705157 ], [ -75.1509565, 39.9705415 ], [ -75.1500524, 39.9746945 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 62262592, "layer": "-2", "highway": null, "name": "Broad Street Line", "tunnel": "yes", "operator": "SEPTA", "railway": "subway", "frequency": "0", "gauge": "1435", "voltage": "600", "electrified": "rail" }, "geometry": { "type": "LineString", "coordinates": [ [ -75.1489281, 40.0196807 ], [ -75.1489885, 40.0193994 ], [ -75.1495168, 40.0169388 ], [ -75.1496508, 40.0163628 ], [ -75.1513432, 40.0091197 ], [ -75.1529864, 40.0017147 ], [ -75.1543752, 39.9954491 ], [ -75.1561973, 39.9870729 ], [ -75.1580054, 39.9785877 ], [ -75.1595296, 39.9713532 ], [ -75.1605174, 39.9669221 ] ] } }
+]
+}
