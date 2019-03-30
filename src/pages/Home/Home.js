@@ -4,7 +4,6 @@ import './Home.css'
 import Directions from '../../components/Directions/DirectionsContainer'
 
 
-
 class Home extends Component {
 
     createReduxDataStore
