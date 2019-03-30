@@ -1,7 +1,7 @@
 import Constant from './constants'
 import fetch from 'cross-fetch'
 
-const host = 'placeholder';
+const host = 'http://localhost:8081/';
 
 export const addError = error =>
     ({
@@ -33,7 +33,7 @@ export const fetchRoute = addresses => dispatch => {
         type: Constant.FETCH_ROUTE
     })
 
-   fetch(host + '/' + JSON.stringify(addresses))
+   fetch(host + 'getMapRoutes')
         .then(response => response.json())
         .then(route => {
             dispatch({
