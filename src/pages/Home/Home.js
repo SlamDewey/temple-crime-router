@@ -11,7 +11,7 @@ class Home extends Component {
         this.fetch_street_map();
         return(
             <div>
-                
+                Hello!
             </div>
         );
     }
