@@ -38,6 +38,15 @@ export const route = (state=[], action) => {
 	}
 }
 
+export const markers = (state=[], action) => {
+	switch(action.type) {
+		case Constant.UPDATE_ROUTE :
+			return state
+		default:
+			return state
+	}
+}
+
 export const safetyRating = (state=-1, action) => {
 	switch(action.type) {
 		case Constant.FETCH_ROUTE :
@@ -49,11 +58,32 @@ export const safetyRating = (state=-1, action) => {
 	}
 }
 
+export const start = (state='', action) => {
+	switch (action.type) {
+		case Constant.UPDATE_START :
+			return action.payload
+		default :
+			return state
+	}
+}
+
+export const end = (state='', action) => {
+	switch (action.type) {
+		case Constant.UPDATE_END :
+			return action.payload
+		default :
+			return state
+	}
+}
+
 const rootReducer = combineReducers ({
  	route,
  	safetyRating,
  	fetching,
  	errors,
+ 	markers,
+ 	start,
+ 	end,
 })
 
 export default rootReducer

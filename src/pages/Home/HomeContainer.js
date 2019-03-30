@@ -9,6 +9,7 @@ const mapStateToProps = (state) => {
 		fetching: state.fetching,
 		safetyRating: state.safetyRating,
 		route: state.route,
+		markers: state.markers,
 	}
 }
 
