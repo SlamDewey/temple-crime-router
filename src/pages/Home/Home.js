@@ -3,8 +3,9 @@ import React, {Component, button} from 'react';
 
 class Home extends Component {
 
+    createReduxDataStore
     _add_error = () => {
-        this.props.addError("test")
+        this.props.addError("test");
     }
 
     render() {
