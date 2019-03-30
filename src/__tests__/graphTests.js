@@ -63,7 +63,7 @@ function generate_new_node(road1, road2, nir1, nir2) {
     totLat /= 4;
     totLon /= 4;
     var shared_node = new node(id(totLat, totLon), totLat, totLon);
-
+    nodes_list[id(totLat, totLon)] = shared_node;
     //rebuild connections
     //add connection n1 -> shared
     road1.nodes[nir1].add_adjacent_node(shared_node, 0);
@@ -144,6 +144,7 @@ describe('parse geojson', () => {
         }
         str += "]}";
         console.log(str);
+        console.log("\n\n\n\n\n\n");
 		expect(roads).not.toEqual('undefined');
 	})
 });
