@@ -1,24 +1,22 @@
 import {connect} from 'react-redux'
 import AddressInput from './AddressInput'
-import { addError, clearError, fetchRoute } from '../../store/actions'
+import { addError, clearError, fetchRoute, updateStart, updateEnd } from '../../store/actions'
 
 const mapStateToProps = (state) => {
     return {
         fetching: state.fetching,
+        start       : state.start,
+        end         : state.end
     }
 }
 
 const mapDispatchToProps = dispatch => {
     return {
-        updateStart(address) {
-            dispatch (
-                updateStart(address)
-            )
+        updateStart(index) {
+            dispatch (updateStart(index))
         },
-        updateEnd(address) {
-            dispatch (
-                updateEnd(address)
-            )
+        updateEnd(index) {
+            dispatch (updateEnd(index))
         },
     }
 }

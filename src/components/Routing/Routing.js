@@ -1,22 +1,21 @@
-import {MapLayer} from 'react-leaflet'
-import L from 'leaflet'
-import 'leaflet-routing-machine'
+import {MapLayer} from 'react-leaflet';
+import L from 'leaflet';
+import 'leaflet-routing-machine';
 
 export default class RoutingMachine extends MapLayer {
-
   componentWillMount() {
-    super.componentWillMount()
-    const {map, dest, to} = this.props
+    super.componentWillMount();
+    const {map, srt, to} = this.props;
     this.leafletElement = L.Routing.control({
       position: 'topleft',
       waypoints: [
-        L.latLng(dest[0], dest[1]),
-        L.latLng(to[0], to[1])
-      ]
-    }).addTo(map)
+        L.latLng(srt[0], srt[1]),
+        L.latLng(to[0], to[1]),
+      ],
+    }).addTo(map);
   }
 
   render() {
-    return null
+    return null;
   }
 }

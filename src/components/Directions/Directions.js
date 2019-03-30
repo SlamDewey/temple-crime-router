@@ -1,6 +1,6 @@
 import React, {Component, button} from 'react';
 import './Directions.css'
-
+import AddressInput from '../AddressInput/AddressInputContainer'
 class Directions extends Component {
 
 	_getRoute = () => {
@@ -8,8 +8,10 @@ class Directions extends Component {
 	}
     render() {
         return(
-            <div className="directionsContainer">
-            	<div className="inputContainer">
+
+            <div class="directionsContainer">
+                <div class="inputContainer">
+                    <AddressInput/>
             	</div>
             	<button className="directionsButton"
             			onClick={this._getRoute}>

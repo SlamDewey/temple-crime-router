@@ -30,7 +30,7 @@ class Home extends Component {
                 <Directions />
                 <div className="mapWrapper">
                     <Map
-                        center={[data.nodes[0].lon, data.nodes[0].lat]}
+                        center={[11.1,11.1]}
                         zoom={15}
                         maxZoom={19}
                         attributionControl={true}
@@ -41,7 +41,10 @@ class Home extends Component {
                         animate={true}
                         easeLinearity={0.35}
                       >
-
+                        <Routing
+                            strt={[11.1,11.1]}
+                            to={[11.2,11.2]}
+                        />
                         <TileLayer
                           url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
                         />
