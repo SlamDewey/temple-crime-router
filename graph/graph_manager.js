@@ -1,4 +1,4 @@
-import roads from '../data/geojson/roads.geojson';
+const roads = require('../data/geojson/roads.json');
 roads = roads.json();
 
 function node(id, lat, lon) {
