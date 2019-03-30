@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/temple-crime-router/precache-manifest.80c406da0bff596421bd2f43aad41174.js"
+  "/temple-crime-router/precache-manifest.55c004e88481c5c73e4bf488914e6adf.js"
 );
 
 workbox.clientsClaim();
