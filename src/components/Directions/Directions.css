@@ -5,13 +5,15 @@
 	position: absolute;
 	display: flex;
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 60px;
 	z-index: 1000;
 	border-radius: 20px;
 	flex-direction: row;
 }
 .inputContainer {
 	flex: 4;
+	display: flex;
+	flex-direction: column;
 	z-index: 1001;
 	height: 100%;
 	width: 100%;

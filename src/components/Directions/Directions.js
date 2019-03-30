@@ -11,7 +11,12 @@ class Directions extends Component {
 
             <div class="directionsContainer">
                 <div class="inputContainer">
-                    <AddressInput/>
+                    <AddressInput
+                        first={true}
+                    />
+                    <AddressInput
+                        first={false}
+                    />
             	</div>
             	<button className="directionsButton"
             			onClick={this._getRoute}>
