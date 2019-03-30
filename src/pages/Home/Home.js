@@ -12,15 +12,14 @@ class Home extends Component {
         this.props.addError("test");
     }
 
-    renderMarker(node) {
-        console.log(node)
-        return (
-            <Marker position={node}>
+    map_markers(nodes) {
+        return nodes.map( (node, id) => (
+            <Marker key={id} position={node}>
                 <Popup>
                     <span>A pretty CSS3 popup. <br/> Easily customizable.</span>
                 </Popup>
             </Marker>
-        )
+        ));
     }
 
 
@@ -30,7 +29,7 @@ class Home extends Component {
                 <Directions />
                 <div className="mapWrapper">
                     <Map
-                        center={[39.98, -75.16]}
+                        center={[data.nodes[0].lat, data.nodes[0].lon]}
                         zoom={15}
                         maxZoom={19}
                         attributionControl={true}
@@ -44,7 +43,7 @@ class Home extends Component {
                         <TileLayer
                           url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
                         />
-                         {this.renderMarker(data.nodes[0])}
+                         {this.map_markers(data.nodes)}
                       </Map>
                     </div>
             </div>
