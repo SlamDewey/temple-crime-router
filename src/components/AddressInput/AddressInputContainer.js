@@ -4,10 +4,12 @@ import { addError, clearError, fetchRoute } from '../../store/actions'
 
 const mapStateToProps = (state) => {
     return {
-        errors: state.errors,
-        fetching: state.fetching,
+        errors      : state.errors,
+        fetching    : state.fetching,
         safetyRating: state.safetyRating,
-        route: state.route,
+        route       : state.route,
+        start       : state.start,
+        end         : state.end
     }
 }
 
