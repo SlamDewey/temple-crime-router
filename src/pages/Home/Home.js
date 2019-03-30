@@ -1,17 +1,19 @@
-import React, {Component} from 'react';
+import React, {Component, button} from 'react';
 
 
 class Home extends Component {
 
-    fetch_street_map() {
-
+    _add_error = () => {
+        this.props.addError("test")
     }
 
     render() {
-        this.fetch_street_map();
+        //this.fetch_street_map();
         return(
             <div>
                 Hello!
+                <button onClick = {this._add_error}>
+                </button>
             </div>
         );
     }

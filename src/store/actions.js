@@ -24,10 +24,10 @@ export const fetchRoute = addresses => dispatch => {
 
    fetch(host + '/' + JSON.stringify(addresses))
         .then(response => response.json())
-        .then(achievements => {
+        .then(route => {
             dispatch({
                 type: Constant.UPDATE_ROUTE,
-                payload: achievements
+                payload: route
             })
 
         })

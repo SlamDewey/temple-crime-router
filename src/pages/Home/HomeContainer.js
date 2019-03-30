@@ -13,14 +13,14 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = dispatch => {
 	return {
-		addError() {
+		addError(message) {
 			dispatch (
-				addError()
+				addError(message)
 			)
 		},
-		clearError() {
+		clearError(index) {
 			dispatch (
-				clearError()
+				clearError(index)
 			)
 		},
 	}
